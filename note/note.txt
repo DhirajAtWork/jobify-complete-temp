@@ -1,0 +1,55 @@
+// createBrowserRouter to create a new Router object we passin a array
+
+// [{
+// path : "/",
+// element:<Home/>,
+// errorElement:<Error/>,
+// children : [
+//     {
+//         index:1,
+//         element:<Landing/>
+//     },{
+//         path:"about",
+//         element:<About/>
+//     }
+// ]
+
+// }]
+
+
+
+// react portion! 
+
+// using redux js
+
+// createStore() deprecated method not at all a good way to use redux
+
+// inside this create we need to add reducer function like the one we created in useReducer hook of react
+
+// configureStore we add the different slices we have created
+
+
+we have to create a path 
+
+/dashboard/ --> would be for AddJob Page 
+/dashboard/all-jobs  --> would be for all jobs
+/dashboard/profile --> would be for profile.jsx element 
+/dashboard/admin --> for admin page
+
+
+
+on the header link page we would add <Outlet /> component from react router dom
+
+Dashboard --> page would not only have outlet component but it will have SmallSidebar BigSidebar and Navbar
+
+here small and big sidebar would be visible according to screen sizes but navbar would be always visible!
+
+
+now we will try to create a context using createContext and useContext of react!
+
+also we will manage two states show Sidebar for toggling sidebar functionality and also isDrakTheme to implement dark mode functionality
+
+we create a utils folder inside src and create a file --> links.jsx
+
+.custom of express signifies custom validation!
+

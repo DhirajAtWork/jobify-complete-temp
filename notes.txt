@@ -1,0 +1,78 @@
+while importing from exports using node we must mention the file extention
+
+setup-project : npm run setup-project
+
+node env is variable which would be injected by the platform
+port will also be injected by the production platform
+
+new node features!
+
+fetch API
+
+global await
+
+watch mode
+
+
+nanoid creates unique ids
+
+setting up global enviroment variable: variableName (URL) : Value (http://localhost:5100/api/v1)
+
+for using {{URL}}
+
+
+not found triggers when --> when something is not available on our server
+
+error middleware triggers when there is a error in logic of route
+
+what is mongoose!
+
+we could interact with our database directly with mongoDB but more common apporach is to use mongoose !
+it is a object modelling 
+
+it is another layer of abstraction over mongodb
+
+async error and handling
+
+the error middle ware only handles synchronus errors
+
+
+the async erros make the server stop so in order to handle such situation we use express-async-errors package to handle async errors
+
+the findByIdAndRemove -- deprecated
+the findByIdAndDelete -- currently in use
+
+status code library : 
+
+custom error class
+
+WHAT IS VALIDATION ERRORS!
+
+THIS LAYER WILL CHECK FOR VALUES BEFORE THEY EVEN GET TO VALIDATION LAYER
+
+WE NEED TO VALIDATE THE REQUIRED PROPERTIES!
+
+we would use express validator
+
+by using throw key word we invoke the error handler middleware
+
+
+password for mongodb atlas secret123
+
+through adding timestamps : true will add created at and id and more fields
+
+
+in id validation name of param must match!
+
+
+proxy will help us in data exchange from backend server we only need it while development!
+
+
+
+useActionData() Hook by react-router
+
+to access data from form 
+
+loader is used to pre fetch the data from server
+
+we can access data using use loader data
